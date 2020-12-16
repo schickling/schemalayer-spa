@@ -1,0 +1,25 @@
+{
+  "name": "schemalayer-example",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "yarn generate",
+    "_build": "rm -rf dist && esbuild --bundle src/app.ts --outfile=dist/app.js --platform=node --sourcemap",
+    "generate": "schemalayer codegen && schemalayer update",
+    "_start": "node ./dist/app.js"
+  },
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "schemalayer": "^0.0.0-dev.18"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.14",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "esbuild": "^0.8.23",
+    "typescript": "^4.1.3"
+  }
+}
