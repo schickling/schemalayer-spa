@@ -13,7 +13,8 @@
     "next": "^10.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "schemalayer": "^0.0.0-dev.18"
+    "react-json-tree": "^0.13.0",
+    "schemalayer": "^0.0.0-dev.22"
   },
   "devDependencies": {
     "@types/node": "^14.14.14",

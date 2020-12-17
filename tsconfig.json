@@ -4,7 +4,7 @@
     "moduleResolution": "Node",
     "noErrorTruncation": true,
     "declaration": true,
-    "rootDir": "./src",
+    "rootDir": "./",
     "jsx": "preserve",
     "target": "ES2020",
     "lib": [
